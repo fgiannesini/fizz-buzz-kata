@@ -39,4 +39,9 @@ mod tests {
     fn should_get_buzz_if_value_is_10() {
         assert_eq!("buzz", fizzbuzz(10))
     }
+
+    #[test]
+    fn should_get_fizzbuzz_if_value_is_15() {
+        assert_eq!("fizzbuzz", fizzbuzz(15))
+    }
 }
