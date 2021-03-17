@@ -2,16 +2,14 @@ fn main() {
 }
 
 fn fizzbuzz(value: i32) -> String {
-    if value % 15 ==0 {
-        "fizzbuzz".to_string()
+    let mut result = "".to_string();
+    if value % 3 == 0 {
+        result.push_str("fizz")
     }
-    else if value % 3 == 0 {
-        "fizz".to_string()
-    } else if value % 5 == 0 {
-        "buzz".to_string()
-    } else {
-        "".to_string()
+    if value % 5 == 0 {
+        result.push_str("buzz")
     }
+    result
 }
 
 #[cfg(test)]
