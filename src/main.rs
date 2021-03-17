@@ -2,7 +2,7 @@ fn main() {
 }
 
 fn fizzbuzz(value : i32) -> String {
-    if value == 3 {
+    if value == 3 || value == 6 {
         "fizz".to_string()
     } else {
         "".to_string()
