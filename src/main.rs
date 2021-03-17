@@ -2,7 +2,7 @@ fn main() {
 }
 
 fn fizzbuzz(value : i32) -> String {
-    "".to_string()
+    "fizz".to_string()
 }
 
 #[cfg(test)]
