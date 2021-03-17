@@ -23,4 +23,9 @@ mod tests {
     fn should_get_empty_if_value_is_1() {
         assert_eq!("", fizzbuzz(1))
     }
+
+    #[test]
+    fn should_get_empty_if_value_is_6() {
+        assert_eq!("fizz", fizzbuzz(6))
+    }
 }
