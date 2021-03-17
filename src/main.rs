@@ -2,7 +2,12 @@ fn main() {
 }
 
 fn fizzbuzz(value : i32) -> String {
-    "fizz".to_string()
+    if value == 3 {
+        "fizz".to_string()
+    } else {
+        "".to_string()
+    }
+
 }
 
 #[cfg(test)]
