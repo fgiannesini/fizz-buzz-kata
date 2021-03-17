@@ -4,6 +4,8 @@ fn main() {
 fn fizzbuzz(value : i32) -> String {
     if value % 3 == 0 {
         "fizz".to_string()
+    } else if value == 5 {
+        "buzz".to_string()
     } else {
         "".to_string()
     }
