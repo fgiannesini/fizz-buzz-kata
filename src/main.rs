@@ -2,7 +2,10 @@ fn main() {
 }
 
 fn fizzbuzz(value: i32) -> String {
-    if value % 3 == 0 {
+    if value % 15 ==0 {
+        "fizzbuzz".to_string()
+    }
+    else if value % 3 == 0 {
         "fizz".to_string()
     } else if value % 5 == 0 {
         "buzz".to_string()
